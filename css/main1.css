@@ -1,0 +1,107 @@
+/* 
+    Document   : main
+    Created on : Jun 14, 2013, 11:41:34 AM
+    Author     : sunnyLA4
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+body {
+	height: 100%;
+	width: 100%;
+	}
+.content {
+	
+	padding: 10px 0;
+}
+.container {
+	width: 960px;
+	height: 550px;
+	background: #F8EED6;
+	margin: 0 auto; /* the auto value on the sides, coupled with the width, centers the layout */
+}
+#sidebar{
+	float: left;
+	height: 550px;
+	width: 300px;
+	background-color: #5C5D6E;
+}
+#abt{
+	font-size: 200%;
+}
+
+
+input
+{
+border : 1px solid #ccc;
+padding: 4px 4px;
+line-height:17px;
+min-height:17px;
+font-size:13px;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+transition:border linear .25s,
+box-shadow linear .25s;
+-webkit-transition:border linear .25s,
+box-shadow linear .25s;
+-moz-transition:border linear .25s,
+box-shadow linear .25s;
+box-shadow:inset 0 1px 3px rgba(0,0,0,0.1);
+-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1);
+-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1);
+background-color:#F9F9F9;
+}
+input:focus
+{
+border-color:#09c;
+border-color:rgba(0,135,200,0.75);
+box-shadow:inset 0 1px 3px rgba(0,0,0,0.1),
+0 0 8px rgba(81,169,236,0.66);
+-webkit-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1),
+0 0 8px rgba(81,169,236,0.66);
+-moz-box-shadow:inset 0 1px 3px rgba(0,0,0,0.1),
+0 0 8px rgba(81,169,236,0.66);
+outline:none;
+}
+
+pre{
+	text-align: center;
+	padding-top: 30px;
+	padding-left: -10px;
+	font-family: DeliciousRoman, Helvetica, Arial, sans-serif;
+
+	text-shadow: 0.1em 0.1em 0.2em black;
+	font-size: 200%;
+	font-weight: bold;
+
+}
+#l1{
+	font-weight: bolder;
+	font-size: 100%;
+}
+#head{
+	margin-top: -28px;
+	margin-left: 195px;
+	background-color: #979D18;
+	height : 100px;
+	font-size: 15px;
+	width: 961px;
+}
+
+label { 
+	padding: 4px;
+  font-weight: bolder;
+ }
+
+input[type=submit] { 
+  	color: white; 
+  	background-color: #5C5D6E; 
+  	margin-top: 10px;
+  	font-size: 1em;
+  	padding: 5px;
+} 
+

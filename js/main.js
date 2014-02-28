@@ -1,0 +1,22 @@
+$(document).ready(function(){
+    $('#add').click(function(){
+        $('#formdiv').css('display','inline');
+        $('#search').fadeOut('fast');
+    }),
+    $('#edit').click(function(){
+        $('#search').css('display','inline');
+        $('#formdiv').fadeOut('fast');
+    }),
+    $('#travel').click(function(){
+        $('#register').css('display','block');
+        $('#passwd').fadeOut('fast');
+    }),
+    $('#change_p').click(function(){
+        $('#passwd').css('display','inline');
+        $('#register').fadeOut('fast');
+    }),
+    $('#change_p_dir').click(function(){
+        $('#passwd_dir').css('display','block');
+    });
+
+});

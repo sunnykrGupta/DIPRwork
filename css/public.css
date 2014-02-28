@@ -1,0 +1,200 @@
+/* Site Colors:
+	#1A446C - blue grey
+	#689DC1 - light blue
+	#D4E6F4 - very light blue
+	#EEE4B9 - light tan
+	#8D0D19 - burgundy
+*/
+
+html { height: 100%; width: 100%; }
+
+body { width: 100%; height: 100%; margin: 0px; padding: 0px; border: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; background: #D4E6F4;
+	font-size: 13px; line-height: 15px; }
+
+img { border: none; }
+
+table, tr, td { border-collapse: collapse; vertical-align: top; font-size: 13px; line-height: 15px;}
+
+a { color: #8D0D19;}
+
+
+
+#header { height: 70px; margin: 0px; padding: 0px; text-align: left; 
+	background: #1A446C; color: #D4E6F4; }
+
+#header h1 { padding: 1em; margin: 0px;}
+
+#main { margin: 0px; padding: 0px; height: 950px; width: 100%; background: #EEE4B9; }
+
+
+
+#footer { height: 2em; margin: 0px; padding: 1em; text-align: center; 
+	background: #1A446C;  color: #D4E6F4; }
+
+
+
+/* Navigation */
+#navigation {
+	float: left;
+ 	width: 150px; 
+	height: 920px;
+	padding: 1em 2em; 
+	color: #D4E6F4; 
+	background: #8D0D19;
+
+ }
+ #menu1{
+ 	text-align: left;
+ }
+ #menu2{
+ 	text-align: center;
+ }
+ #menu3{
+ 	text-align: right;
+ }
+
+.selected { font-weight: bold; }
+
+/* Page Content */
+#page {  vertical-align: top; background: #EEE4B9; }
+
+#page h2 { 
+	text-decoration: underline;
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 20px;
+	font-size: 200%;
+	color: #8D0D19; margin-top: 0em;}
+
+#adm { 
+	text-align: center;
+	color: #8D0D19;
+	font-size: 150%;
+	font-weight: bold; 
+}
+
+button{
+	color: black; 
+	font-weight: bold; 
+  	background-color: #6F934F; 
+  	margin-top: 10px;
+  	font-size: 1.2em;
+  	padding: 10px;
+}
+
+#search{
+	
+	font-size: 120%;
+	margin-top: 40px ;
+	margin-left: 400px;
+  	display: none;
+	position: absolute;
+}
+
+#formdiv{
+	padding: 5px;
+	height: 700px;
+	width: 300px;
+	margin-top: 0px ;
+	margin-left: 200px;
+	margin-right: 400px;
+  	display: none;
+	position: absolute;
+}
+
+#formdiv1{
+	padding: 5px;
+	height: 700px;
+	width: 300px;
+	margin-top: 0px ;
+	margin-left: 200px;
+	margin-right: 400px;
+  	display: block;
+	position: absolute;
+}
+ input[type=submit] { 
+  	color: white; 
+  	background-color: #1E363C; 
+  	font-size: 1em;
+  	padding: 4px;
+} 
+table { 
+  
+  border-collapse: collapse;
+   color: black; 
+   border: 1px solid black;
+    }
+/* employee form css -- */
+h3{
+  width: 300px;
+  font-size: 160%;
+  padding-left: 160px;
+  padding-top: 20px;
+  text-align: center;
+}
+form{
+	width: 500px;
+	padding: 20px;
+	border: 1px solid black;
+
+}
+
+#register{
+	font-size: 120%;
+	margin-top: 50px;
+	margin-left: 400px;
+	display: none; 
+	
+	position: absolute;
+  
+}
+    label {
+     margin-top: .33em;
+     display: block; 
+   }
+
+     input {
+      width: 200px; 
+    }
+
+    #basic { 
+      padding-top: 15px;
+      padding-left: 10px;
+      float: left; 
+    }
+    #info{
+      margin-top: -30px;
+     margin-left: 300px;
+    }
+/*  here code for change passwd   */
+#passwd{
+
+	font-size: 100%;
+	margin-top: 50px;
+	margin-left: 300px;
+	display: none; 
+	
+	position: absolute;
+  
+}
+#passwd_dir{
+
+	font-size: 100%;
+	margin-top: 50px;
+	margin-left: 300px;
+	display: none; 
+	
+	position: absolute;
+  
+}
+#passwd_div{
+
+	font-size: 100%;
+	margin-top: 50px;
+	margin-left: 300px;
+	display: none; 
+	
+	position: absolute;
+  
+}
